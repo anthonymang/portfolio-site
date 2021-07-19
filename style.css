@@ -87,7 +87,7 @@
 }
 .carousel-img {
     width: 200px;
-    height: auto;
+    height: autof-;
     background-color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
@@ -146,4 +146,16 @@ body{
 } */
 .dev-name{
     margin-bottom: 30px;
+}
+
+.card {
+    color: black;
+}
+
+.tech-used {
+    list-style-type: none;
+}
+
+.site-link {
+    color:black; 
 }
