@@ -1,0 +1,149 @@
+.menu{
+    height: 100vh;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    color:whitesmoke
+
+} 
+
+.title:hover {
+    text-decoration: none;
+    color: #ffff00
+}
+
+.title{
+    border: 3px solid black !important;
+    color: yellow !important;
+    background-color: black !important;
+    padding: 5px !important;
+    border-radius: 10px !important;
+    text-decoration: none !important;
+}
+
+.nav-item {
+    text-decoration: none !important;
+
+
+}
+
+
+
+.section{
+    padding: 20px !important;
+    /* width: 100%; */
+    text-align: center;
+    color: black !important;
+    text-decoration: none !important;
+
+
+}
+
+.section:hover {
+    /* text-decoration: underline; */
+    color:black !important;
+    /* font-size: 25px; */
+    background-color: yellow !important;
+    border-radius: 5px !important;
+
+
+}
+
+.logo {
+    color: black;
+}
+
+.main {
+    background-color: black;
+    min-height: 100vh;
+    font-family: 'Comfortaa', cursive;
+    color: whitesmoke;
+    position: relative;
+    margin-left: -15px;
+    padding-left: 15px;
+    border-left: 5px solid yellow;
+    border-right: 5px solid yellow;
+
+
+
+}
+
+.heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 8px solid whitesmoke;
+    border-bottom: 8px solid whitesmoke;
+
+}
+
+.carousel{
+    margin-bottom: 10px;
+}
+.carousel-img {
+    width: 200px;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.dev-icon{
+    font-size: 64px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.icons {
+    text-decoration: none;
+    border: none;
+    color: black;
+
+}
+
+.icons:hover{
+    text-decoration: none;
+}
+
+a.active {
+    color:black !important;
+    /* font-size: 25px; */
+    background-color: yellow !important;
+    border-radius: 5px;
+}
+
+body{
+    position: relative;
+}
+
+.prof-img{
+    border: 5px solid whitesmoke
+}
+
+#sqlite {
+    height: 64px;
+    width: 64px;
+}
+
+.bi-arrow-right-circle{
+    color: whitesmoke;
+}
+
+/* @media screen and (max-width: 767px) {
+    .navbar{
+        min-width: 100vh;
+        flex-direction: row;
+        max-height: 10vh;
+        position: fixed;
+        top:0;
+    }
+} */
+.dev-name{
+    margin-bottom: 30px;
+}
