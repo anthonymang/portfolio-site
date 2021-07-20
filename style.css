@@ -29,6 +29,11 @@
 
 }
 
+.exp-hr {
+    width: 50% !important;
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+} 
 
 
 .section{
@@ -153,7 +158,8 @@ body{
 }
 
 .card {
-    color: black;
+    color: white;
+    background-color: black !important;
 }
 
 .tech-used {
