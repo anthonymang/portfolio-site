@@ -5,7 +5,8 @@
     flex-direction: column;
     align-items: center !important;
     justify-content: space-evenly !important;
-    color:whitesmoke
+    color:whitesmoke;
+
 
 } 
 
@@ -69,6 +70,7 @@
     margin-left: -15px;
     padding-left: 15px;
     border-left: 5px solid yellow;
+    overflow-x: hidden;
     /* border-right: 5px solid yellow; */
 
 
@@ -160,6 +162,9 @@ body{
 .card {
     color: white;
     background-color: black !important;
+    border: 1px solid whitesmoke !important;
+    padding: 10px;
+    margin-top: 15px !important;
 }
 
 .tech-used {
@@ -168,6 +173,7 @@ body{
 
 .site-link {
     color:whitesmoke !important;
+    margin-bottom: 10px;
 
 }
 
@@ -187,9 +193,14 @@ body{
     .main {
         margin: 0 auto !important;
         padding: 0 auto;
+        overflow-x: hidden !important;
     }
     .navbar {
       position: inherit !important; 
+    }
+    .card{
+        text-align: center;
+        border: none !important;
     }
   }
 
@@ -199,5 +210,9 @@ body{
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
 }
+
+.card-text {
+    margin-top: 15px;
+}
+
