@@ -167,11 +167,12 @@ body{
 }
 
 .site-link {
-    color:black; 
+    color:whitesmoke !important;
+
 }
 
 .site-link:hover{
-    color: black
+    color: whitesmoke
 }
 .job-link {
     color:white; 
@@ -191,3 +192,12 @@ body{
       position: inherit !important; 
     }
   }
+
+.site-para {
+    margin-top: 10px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
