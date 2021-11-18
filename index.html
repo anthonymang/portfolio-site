@@ -1,512 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta property="og:image" content="./assets/img/site_logo.png" />
-    <meta property="og:description" content="Tech and music industry specialist based in Brooklyn, NY.">
+<head>
+<meta property="og:image" content="./assets/img/site_logo.png" />
+<meta property="og:description" content="Tech and music industry specialist based in Brooklyn, NY.">
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="style.css" />
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
 
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
-    <title>Anthony Manganiello</title>
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="0" class="scrollspy" tabindex="5">
-      <!-- MENU/NAV -->
-    <div class="row">
-      <nav
-        class="
-          menu
-          navbar
-          col-lg-2
-          col-sm-12
-          flex-column
-          align-items-center
-          align-content-center
-          justify-content-evenly
-          text-center
-          sticky-top
-        "
-        id = 'menu'
-      >
-      <ul class = 'flex-column align-items-center justify-content-evenly nav nav-pills'>
-        <li class = 'nav-item'>
-            <a href="/" class="h1 title text-center nav-link">antman</a>
-        </li>
+<title>Anthony Manganiello</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="0" class="scrollspy" tabindex="5">
+    <!-- MENU/NAV -->
+<div class="row">
+    <nav
+    class="
+        menu
+        navbar
+        col-lg-2
+        col-sm-12
+        flex-column
+        align-items-center
+        align-content-center
+        justify-content-evenly
+        text-center
+        sticky-top
+    "
+    id = 'menu'
+    >
+    <ul class = 'flex-column align-items-center justify-content-evenly nav nav-pills'>
+    <li class = 'nav-item'>
+        <a href="/" class="h1 title text-center nav-link">antman</a>
+    </li>
 
-        <li class = 'nav-item'>
-            <a href="#about" class="h5 section font-monospace text-center nav-link">About</a>
-        </li>
+    <li class = 'nav-item'>
+        <a href="#about" class="h5 section font-monospace text-center nav-link">About</a>
+    </li>
 
-        <li class = 'nav-item'>
-            <a href="#skills" class="h5 section font-monospace text-center nav-link">Skills</a>
-        </li>
-        <li class = 'nav-item'>
-            <a href="#projects" class="h5 section font-monospace text-center nav-link">Projects</a>
-        </li>
-        <li class = 'nav-item'>
-            <a href="#contact" class="h5 section font-monospace text-center nav-link">Contact</a>
-        </li>
-    </ul>
+    <li class = 'nav-item'>
+        <a href="#skills" class="h5 section font-monospace text-center nav-link">Skills</a>
+    </li>
+    <li class = 'nav-item'>
+        <a href="#projects" class="h5 section font-monospace text-center nav-link">Projects</a>
+    </li>
+    <li class = 'nav-item'>
+        <a href="#contact" class="h5 section font-monospace text-center nav-link">Contact</a>
+    </li>
+</ul>
 
-    <!-- MENU/NAV ICONS -->
-        <div class="row d-inline-flex flex-row icons">
-          <p><a class = 'icons' href="http://github.com/anthonymang" target="_blank">
-            <svg
-              class="nav-item icons logo"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              class="bi bi-github"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-              />
-            </svg>
-          </a>|
-          <a target ='_blank' class = 'icons' href="http://linkedin.com/in/anthony-manganiello">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              class="bi bi-linkedin nav-item logo icons"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-              />
-            </svg>
-          </a>|
-          <a target ='_blank' href = 'https://open.spotify.com/playlist/3QhVbgxK0T4R9DxHGMelqq?si=7e1e1724d8b14aed' ><img src="./assets/img/spotify_logo.png" width= '24px' height= '24px' class="bi bi-linkedin nav-item logo icons"
-            viewBox="0 0 16 16" /></a>
-        </p>
-        </div>
-    </nav>
+<!-- MENU/NAV ICONS -->
+    <div class="row d-inline-flex flex-row icons">
+        <p><a class = 'icons' href="http://github.com/anthonymang" target="_blank">
+        <svg
+            class="nav-item icons logo"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-github"
+            viewBox="0 0 16 16"
+        >
+            <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+            />
+        </svg>
+        </a>|
+        <a target ='_blank' class = 'icons' href="http://linkedin.com/in/anthony-manganiello">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-linkedin nav-item logo icons"
+            viewBox="0 0 16 16"
+        >
+            <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+            />
+        </svg>
+        </a>|
+        <a target ='_blank' href = 'https://open.spotify.com/playlist/3QhVbgxK0T4R9DxHGMelqq?si=7e1e1724d8b14aed' ><img src="./assets/img/spotify_logo.png" width= '24px' height= '24px' class="bi bi-linkedin nav-item logo icons"
+        viewBox="0 0 16 16" /></a>
+    </p>
+    </div>
+</nav>
 
 
 <!-- MAIN PAGE -->
-      <div class="main col-lg-10 col-sm-12">
+    <div class="main col-lg-10 col-sm-12">
 
-        <!-- WELCOME BAR TOP OF SCREEN -->
-        <div class="row">
+    <!-- WELCOME BAR TOP OF SCREEN -->
+    <div class="row">
 
-          
-          <div class="intro col-lg-5 col-sm-12 ">
-            <div class = 'text-center align-items-center justify-content-center border-1'>
-            <p class="display-1 intro">welcome!</p>
-            <p class="display-6">
-              you have reached: 
-            </p>
-            <p class="display-6">anthony manganiello</p>
-        </div>
-    </div>
         
-        <div class = 'intro col-lg-4 col-sm-12 d-flex flex-column align-items-cener justify-content-evenly'>
-            <p class = 'h2 intro'><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-              </svg> software engineer</p>
-            <p class = 'h2'><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-              </svg> writer</p>
-            <p class = 'h2'><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-              </svg> content creator</p>
-            <p class = 'h2'><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-              </svg> tech professional</p>
-
-              
-
-        </div>
-        <div class = 'intro col-lg-3 col-sm-12 d-flex justify-content-evenly align-items-center'>
-            <img class="prof-img border-2 rounded" src="./assets/img/20210402_194152.jpg" alt="anthony manganiello headshot" />
-          </div>
+        <div class="intro col-lg-5 col-sm-12 ">
+        <div class = 'text-center align-items-center justify-content-center border-1'>
+        <p class="display-1 intro">welcome!</p>
+        <p class="display-6">
+            you have reached: 
+        </p>
+        <p class="display-6">anthony manganiello</p>
     </div>
+</div>
+    
+    <div class = 'intro col-lg-4 col-sm-12 d-flex flex-column align-items-cener justify-content-evenly'>
+        <p class = 'h2 intro'><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg> software engineer</p>
+        <p class = 'h2'><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg> writer</p>
+        <p class = 'h2'><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg> content creator</p>
+        <p class = 'h2'><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg> tech professional</p>
+
+            
+
+    </div>
+    <div class = 'intro col-lg-3 col-sm-12 d-flex justify-content-evenly align-items-center'>
+        <img class="prof-img border-2 rounded" src="./assets/img/20210402_194152.jpg" alt="anthony manganiello headshot" />
+        </div>
+</div>
 
 <!-- ABOUT -->
-        <div class="row" id = 'about'>
-            <p class="h1 heading text-center">about</p>
+    <div class="row" id = 'about'>
+        <p class="h1 heading text-center">about</p>
+    
+        <div class ='mx-auto row'>
+        <h5 class = 'mx-auto bio text-center'>
+        Tech and music industry specialist based in Brooklyn, NY. Experience
+        in full-stack software development, software sales, and digital
+        content creation. Graduated NYU's Global Liberal Studies Program (Concentration: Contemporary Culture & Creative Production) in 2018. Minored in Psychology and the Business of Music & Technology. Recently completed General Assembly's 500-hour Software Engineering Immersive Bootcamp and looking for work as a full-stack developer.
+        </h5>
+    </div>
+    <div class = 'row mx-auto text-center'>
+        <p class = 'h2'>Past Experience</p>
+    </div>
+    <hr class ='exp-hr'/>
+    
+        <div class = 'row mx-auto'>
+            <div class='d-flex col-lg-2 col-sm-12 flex-column text-center align-items-center  align-middle mx-auto'>
+                <a class='job-link' href = 'https://moderncampus.com'><img class = 'exp-img' src="./assets/img/modern-campus-logo.png" alt="Songtrust">
+        <h5>Modern Campus</a></h5>
+        <p>Web Developer</p>
+    </div>
 
+            <div class='d-flex col-lg-2 col-sm-12 flex-column text-center align-items-center  align-middle mx-auto'>
+                <a class='job-link' href = 'https://songtrust.com'><img class = 'exp-img' src="./assets/img/songtrust_logo.png" alt="Songtrust">
+        <h5>Songtrust Music Publishing</a></h5>
+        <p>Client Acquisition Specialist</p>
+    </div>
+
+    <div class='d-flex col-lg-2 col-sm-12 flex-column text-center align-items-center  mx-auto'>
+        <a class='job-link' href = 'https://weareinstrumental.com'><img class = 'exp-img' src="./assets/img/instrumental_logo.gif" alt="Instrumental">
+        <h5>Instrumental</a></h5>
+        <p>Business Development, A&R Consultant</p>
+    </div>
+
+    <div class='d-flex col-lg-2 col-sm-12 flex-column text-center align-items-center  mx-auto'>
+        <a class='job-link' href = 'https://dancingastronaut.com'><img class = 'exp-img' src="./assets/img/da_logo.png" alt="Dancing Astronaut">
+        <h5>Dancing Astronaut</a></h5>
+        <p>Staff Writer</p>
+    </div>
+
+    <div class='d-flex col-lg-2 col-sm-12 flex-column text-center align-items-center  mx-auto'>
+        <a class='job-link' href = 'https://avant-gardner.com'><img class = 'exp-img' src="./assets/img/avant-gardner-logo.png" alt="Avant Gardner">
+        <h5>Avant Gardner</a></h5>
+        <p>Social Content Creator</p>
+    </div>
+    </div>
+    
+
+
+
+
+    </div>
+
+    <!-- SKILLS -->
+    <div class = 'row' id = 'skills'>
+    <p class="h1 heading text-center">skills</p>
+</div>
+    <div class = 'row'>
+    <div class="text-center col dev-row">
+        <p class = "h3 text-center dev-name">Languages</p>
+
+        <div>
+            <i class="dev-icon devicon-html5-plain"></i>
+            <p class='font-monospace dev-name'>HTML</p>
+        </div>
+
+        <div>
+            <i class="dev-icon devicon-css3-plain"></i>
+            <p class='font-monospace dev-name'>CSS</p>
+        </div>
+
+        <div>
+            <i class="dev-icon devicon-javascript-plain"></i>
+            <p class='font-monospace dev-name'>JavaScript</p>
+        </div>
+
+        <div>
+            <i class="dev-icon devicon-python-plain"></i>
+            <p class='font-monospace dev-name'>Python</p>
+        </div>
+
+    </div>
 
     
-      
 
-          <div class ='mx-auto row'>
-          <h5 class = 'mx-auto bio text-center'>
-            Tech and music industry specialist based in Brooklyn, NY. Experience
-            in full-stack software development, software sales, and digital
-            content creation. Graduated NYU's Global Liberal Studies Program (Concentration: Contemporary Culture & Creative Production) in 2018. Minored in Psychology and the Business of Music & Technology. Recently completed General Assembly's 500-hour Software Engineering Immersive Bootcamp and looking for work as a full-stack developer.
-          </h5>
-        </div>
-        <div class = 'row mx-auto text-center'>
-            <p class = 'h2'>Past Experience</p>
-        </div>
-        <hr class ='exp-hr'/>
-        
-            <div class = 'row mx-auto'>
-                <div class='d-flex col-lg-3 col-sm-12 flex-column text-center align-items-center  align-middle mx-auto'>
-                    <a class='job-link' href = 'https://songtrust.com'><img class = 'exp-img' src="./assets/img/songtrust_logo.png" alt="Songtrust">
-            <h5>Songtrust Music Publishing</a></h5>
-            <p>Client Acquisition Specialist</p>
+
+
+    <div class="col text-center">
+        <p class = "h3 text-center dev-name">Frameworks</p>
+        <div>
+            <i class="dev-icon devicon-nodejs-plain"></i>
+            <p class='font-monospace dev-name dev-name'>Node.js</p>
         </div>
 
-        <div class='d-flex col-lg-3 col-sm-12 flex-column text-center align-items-center  mx-auto'>
-            <a class='job-link' href = 'https://weareinstrumental.com'><img class = 'exp-img' src="./assets/img/instrumental_logo.gif" alt="Instrumental">
-            <h5>Instrumental</a></h5>
-            <p>Business Development, A&R Consultant</p>
+        <div>
+            <i class="dev-icon devicon-express-original"></i>
+            <p class='font-monospace dev-name'>Express</p>
         </div>
 
-        <div class='d-flex col-lg-3 col-sm-12 flex-column text-center align-items-center  mx-auto'>
-            <a class='job-link' href = 'https://dancingastronaut.com'><img class = 'exp-img' src="./assets/img/da_logo.png" alt="Dancing Astronaut">
-            <h5>Dancing Astronaut</a></h5>
-            <p>Staff Writer</p>
+        <div>
+            <i class="dev-icon devicon-react-original"></i>
+            <p class='font-monospace dev-name'>React</p>
         </div>
 
-        <div class='d-flex col-lg-3 col-sm-12 flex-column text-center align-items-center  mx-auto'>
-            <a class='job-link' href = 'https://avant-gardner.com'><img class = 'exp-img' src="./assets/img/avant-gardner-logo.png" alt="Avant Gardner">
-            <h5>Avant Gardner</a></h5>
-            <p>Social Content Creator</p>
+        <div>
+            <i class="dev-icon devicon-django-line"></i>
+            <p class='font-monospace dev-name'>Django</p>
         </div>
-        </div>
-        
-
-
-
-
-        </div>
-
-        <!-- SKILLS -->
-        <div class = 'row' id = 'skills'>
-        <p class="h1 heading text-center">skills</p>
     </div>
-        <div class = 'row'>
-        <div class="text-center col dev-row">
-            <p class = "h3 text-center dev-name">Languages</p>
 
-            <div>
-                <i class="dev-icon devicon-html5-plain"></i>
-                <p class='font-monospace dev-name'>HTML</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-css3-plain"></i>
-                <p class='font-monospace dev-name'>CSS</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-javascript-plain"></i>
-                <p class='font-monospace dev-name'>JavaScript</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-python-plain"></i>
-                <p class='font-monospace dev-name'>Python</p>
-            </div>
-
+    <div class="col text-center">
+        <p class = "h3 text-center dev-name">Databases</p>
+        <div>
+            <i class="dev-icon devicon-postgresql-plain"></i>
+            <p class='font-monospace dev-name'>PostgreSQL</p>
         </div>
 
-        
-
-
-
-        <div class="col text-center">
-            <p class = "h3 text-center dev-name">Frameworks</p>
-            <div>
-                <i class="dev-icon devicon-nodejs-plain"></i>
-                <p class='font-monospace dev-name dev-name'>Node.js</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-express-original"></i>
-                <p class='font-monospace dev-name'>Express</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-react-original"></i>
-                <p class='font-monospace dev-name'>React</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-django-line"></i>
-                <p class='font-monospace dev-name'>Django</p>
-            </div>
+        <div>
+            <i class="dev-icon devicon-sequelize-plain"></i>
+            <p class='font-monospace dev-name'>Sequelize</p>
         </div>
 
-        <div class="col text-center">
-            <p class = "h3 text-center dev-name">Databases</p>
-            <div>
-                <i class="dev-icon devicon-postgresql-plain"></i>
-                <p class='font-monospace dev-name'>PostgreSQL</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-sequelize-plain"></i>
-                <p class='font-monospace dev-name'>Sequelize</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-mongodb-plain"></i>
-                <p class='font-monospace dev-name'>MongoDB</p>
-            </div>
-
-            <div>
-                <img src="./assets/img/sqlite_logo.png" id = 'sqlite'/>
-                <p class='font-monospace dev-name'>SQLite</p>
-            </div>
-
+        <div>
+            <i class="dev-icon devicon-mongodb-plain"></i>
+            <p class='font-monospace dev-name'>MongoDB</p>
         </div>
 
-
-        <div class="col text-center">
-            <p class = "h3 text-center dev-name">Tools</p>
-            <div>
-                <i class="dev-icon devicon-github-plain"></i>
-                <p class='font-monospace dev-name'>Github</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-heroku-plain"></i>
-                <p class='font-monospace dev-name'>Heroku</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-bootstrap-plain"></i>
-                <p class='font-monospace dev-name'>Bootstrap</p>
-            </div>
-
-            <div>
-                <i class="dev-icon devicon-bulma-plain"></i>
-                <p class='font-monospace dev-name'>Bulma</p>
-            </div>
-
-            
-
+        <div>
+            <img src="./assets/img/sqlite_logo.png" id = 'sqlite'/>
+            <p class='font-monospace dev-name'>SQLite</p>
         </div>
-
 
     </div>
 
-            
+
+    <div class="col text-center">
+        <p class = "h3 text-center dev-name">Tools</p>
+        <div>
+            <i class="dev-icon devicon-github-plain"></i>
+            <p class='font-monospace dev-name'>Github</p>
+        </div>
+
+        <div>
+            <i class="dev-icon devicon-heroku-plain"></i>
+            <p class='font-monospace dev-name'>Heroku</p>
+        </div>
+
+        <div>
+            <i class="dev-icon devicon-bootstrap-plain"></i>
+            <p class='font-monospace dev-name'>Bootstrap</p>
+        </div>
+
+        <div>
+            <i class="dev-icon devicon-bulma-plain"></i>
+            <p class='font-monospace dev-name'>Bulma</p>
+        </div>
+
+        
+
+    </div>
+
+
+</div>
+
+        
 <!-- PROJECTS -->
-        <div class="row" id = 'projects'>
-          <p class="h1 heading text-center">projects</p>
+    <div class="row" id = 'projects'>
+        <p class="h1 heading text-center">projects</p>
 
 
-          <!-- POINT OF NO RETURN -->
-          <div class="card mb-3 col-lg-5 col-sm-12 mx-auto d-flex">
-            <div class="row g-0">
-                <h5 class="h2 card-title text-center">Point of No Return</h5>
+        <!-- POINT OF NO RETURN -->
+        <div class="card mb-3 col-lg-5 col-sm-12 mx-auto d-flex">
+        <div class="row g-0">
+            <h5 class="h2 card-title text-center">Point of No Return</h5>
 
-              <div class="mx-auto">
-                <img src="./assets/img/ponr_img.png" class="img-fluid rounded" alt="Point Of No Return Screenshot">
-                <p class = 'font-monospace text-center site-para'><a target = '_blank' class= 'site-link' href='https://pointofnoreturn.herokuapp.com/search/music'>Live Site</a> | <a class= 'site-link' href='https://github.com/anthonymang/point-of-no-return' target = '_blank'>Github</a></p>
+            <div class="mx-auto">
+            <img src="./assets/img/ponr_img.png" class="img-fluid rounded" alt="Point Of No Return Screenshot">
+            <p class = 'font-monospace text-center site-para'><a target = '_blank' class= 'site-link' href='https://pointofnoreturn.herokuapp.com/search/music'>Live Site</a> | <a class= 'site-link' href='https://github.com/anthonymang/point-of-no-return' target = '_blank'>Github</a></p>
+        </div>
+        <div class = 'row text-center font-monospace'>
+            <a data-bs-toggle="collapse" class='site-link coll-link' href = "#collapsePONR" aria-expanded="false" aria-controls="collapseExample">▼ About ▼</a>
+        </div>
+        <div class = 'row'>
+        <div class="font-monospace">
+
+
+        <div class = 'mobile-coll' id='collapsePONR'>
+
+                <p class="card-text">
+                    point of no return is a collaborative music library. Using Spotify's API and user submitted data, this site allows users to discover music using genre, location, date, and release filtering.
+                    </p>
+                    
+            
+
+                <h5 class="card-title text-center">Technologies Used:</h5>
+                <div class = 'row'>
+                <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
+                <li>Django</li>
+                <li>django-taggit</li>
+                <li>django-filter</li>
+                <li>django-crispy-forms</li>                    
+            </ul>
+            <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
+                        
+                <li>PostgreSQL</li>
+                <li>Bulma</li>
+                <li>Spotify API</li>
+                <li>Python</li>
+            </ul>
             </div>
-            <div class = 'row text-center font-monospace'>
-                <a data-bs-toggle="collapse" class='site-link coll-link' href = "#collapsePONR" aria-expanded="false" aria-controls="collapseExample">▼ About ▼</a>
             </div>
-            <div class = 'row'>
+        </div>
+    </div>
+        </div>
+        </div>
+        <!-- SHAREAOKE -->
+        <div class="card mb-3 col-lg-5 col-sm-10 mx-auto d-flex">
+        <div class="row g-0">
+            <h5 class="h2 card-title text-center">Share-aoke</h5>
+
+            <div class="mx-auto">
+            <img src="./assets/img/shareaoke_img.png" class="img-fluid rounded" alt="Share-aoke Screenshot">
+            <p class = 'font-monospace text-center site-para'><a target = '_blank' class= 'site-link' href='https://cheraoke-app.herokuapp.com/'>Live Site</a> | <a class= 'site-link' href='https://github.com/omunoz-89/karaoke-frontend' target = '_blank'>Github Front-end</a> | <a class= 'site-link' href='https://github.com/anthonymang/karaoke-backend' target = '_blank'>Github Back-end</a></p>
+        </div>
+        <div class = 'row text-center font-monospace'>
+            <a data-bs-toggle="collapse" class='site-link coll-link' href = "#collapseShare" aria-expanded="false" aria-controls="collapseExample">▼ About ▼</a>
+        </div>
+        <div class="row">
             <div class="font-monospace">
+                <div class = 'mobile-coll' id='collapseShare'>
 
-    
-            <div class = 'mobile-coll' id='collapsePONR'>
+                <p class="card-text">
+                    Unlock your inner karaoke superstar - a collaborative project leveraging YouTube's API to find instrumental/karaoke versions of songs. Users can then record a video live on the site and upload their new hit.
 
-                    <p class="card-text">
-                        point of no return is a collaborative music library. Using Spotify's API and user submitted data, this site allows users to discover music using genre, location, date, and release filtering.
-                      </p>
-                     
-               
 
-                  <h5 class="card-title text-center">Technologies Used:</h5>
-                  <div class = 'row'>
-                  <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
-                    <li>Django</li>
-                    <li>django-taggit</li>
-                    <li>django-filter</li>
-                    <li>django-crispy-forms</li>                    
+                    </p>
+                    <div class = 'row'>
+
+                <h5 class="card-title">Technologies Used:</h5>
+                <div class = 'row'>
+                <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>MongoDB</li>
+                <li>Express</li>
+                <li>Node.js</li>
+                
+
+
+
                 </ul>
                 <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
-                         
-                  <li>PostgreSQL</li>
-                    <li>Bulma</li>
-                    <li>Spotify API</li>
-                    <li>Python</li>
-                </ul>
-                </div>
-              </div>
+                <li>Passport</li>
+                <li>Bcrypt</li>
+                <li>Cameratag</li>
+                <li>YouTube API</li>
+            </ul>
+            </div>
+            </div>
+            </div>
             </div>
         </div>
-            </div>
-          </div>
-          <!-- SHAREAOKE -->
-          <div class="card mb-3 col-lg-5 col-sm-10 mx-auto d-flex">
-            <div class="row g-0">
-                <h5 class="h2 card-title text-center">Share-aoke</h5>
+        </div>
+        </div>
+        <!-- GALLERYLINK -->
+        <div class="card mb-3 col-lg-5 col-sm-10 mx-auto d-flex">
+        <div class="row g-0">
+            <h5 class="h2 card-title text-center">GalleryLink</h5>
 
-              <div class="mx-auto">
-                <img src="./assets/img/shareaoke_img.png" class="img-fluid rounded" alt="Share-aoke Screenshot">
-                <p class = 'font-monospace text-center site-para'><a target = '_blank' class= 'site-link' href='https://cheraoke-app.herokuapp.com/'>Live Site</a> | <a class= 'site-link' href='https://github.com/omunoz-89/karaoke-frontend' target = '_blank'>Github Front-end</a> | <a class= 'site-link' href='https://github.com/anthonymang/karaoke-backend' target = '_blank'>Github Back-end</a></p>
-            </div>
-            <div class = 'row text-center font-monospace'>
-                <a data-bs-toggle="collapse" class='site-link coll-link' href = "#collapseShare" aria-expanded="false" aria-controls="collapseExample">▼ About ▼</a>
-            </div>
-            <div class="row">
-                <div class="font-monospace">
-                    <div class = 'mobile-coll' id='collapseShare'>
+            <div class="mx-auto">
+            <img src="./assets/img/gallerylink_img.png" class="img-fluid rounded" alt="GalleryLink Screenshot">
+            <p class = 'font-monospace text-center site-para'><a target = '_blank' class= 'site-link' href='https://gallerylink.herokuapp.com/'>Live Site</a> | <a class= 'site-link' href='https://github.com/anthonymang/gallery-link' target = '_blank'>Github</a></p>
+        </div>
+        <div class = 'row text-center font-monospace'>
+            <a data-bs-toggle="collapse" class='site-link coll-link' href = "#collapseGallery" aria-expanded="false" aria-controls="collapseExample">▼ About ▼</a>
+        </div>
+        <div class="row">
+            <div class="font-monospace">
+                <div class = 'mobile-coll' id='collapseGallery'>
 
-                    <p class="card-text">
-                        Unlock your inner karaoke superstar - a collaborative project leveraging YouTube's API to find instrumental/karaoke versions of songs. Users can then record a video live on the site and upload their new hit.
-    
-    
-                      </p>
-                      <div class = 'row'>
-   
-                  <h5 class="card-title">Technologies Used:</h5>
-                  <div class = 'row'>
-                  <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
-                    <li>React</li>
-                    <li>JavaScript</li>
-                    <li>MongoDB</li>
-                    <li>Express</li>
-                    <li>Node.js</li>
-                    
+                <p class="card-text">
+                    GalleryLink is a site for both artists and art galleries. Artists can create accounts to upload their work and galleries can sign up to search for works of art and artists for future shows.    
 
+                    </p>
+
+                <h5 class="card-title">Technologies Used:</h5>
+                <div class = 'row'>
+
+                <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
+                <li>Node.js</li>
+                <li>JavaScript</li>
+                <li>Express</li>
+                <li>EJS</li>
+                <li>PostgreSQL</li>
+                
 
 
-                  </ul>
-                  <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
-                  <li>Passport</li>
-                    <li>Bcrypt</li>
-                    <li>Cameratag</li>
-                    <li>YouTube API</li>
+
                 </ul>
-                </div>
-                </div>
-              </div>
-              </div>
+                <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
+                <li>Cloudinary</li>
+                <li>Nodemailer API</li>
+                <li>Bcrypt</li>
+                <li>Passport</li>
+            </ul>
             </div>
             </div>
-          </div>
-          <!-- GALLERYLINK -->
-          <div class="card mb-3 col-lg-5 col-sm-10 mx-auto d-flex">
-            <div class="row g-0">
-                <h5 class="h2 card-title text-center">GalleryLink</h5>
-
-              <div class="mx-auto">
-                <img src="./assets/img/gallerylink_img.png" class="img-fluid rounded" alt="GalleryLink Screenshot">
-                <p class = 'font-monospace text-center site-para'><a target = '_blank' class= 'site-link' href='https://gallerylink.herokuapp.com/'>Live Site</a> | <a class= 'site-link' href='https://github.com/anthonymang/gallery-link' target = '_blank'>Github</a></p>
             </div>
-            <div class = 'row text-center font-monospace'>
-                <a data-bs-toggle="collapse" class='site-link coll-link' href = "#collapseGallery" aria-expanded="false" aria-controls="collapseExample">▼ About ▼</a>
-            </div>
-            <div class="row">
-                <div class="font-monospace">
-                    <div class = 'mobile-coll' id='collapseGallery'>
-
-                    <p class="card-text">
-                        GalleryLink is a site for both artists and art galleries. Artists can create accounts to upload their work and galleries can sign up to search for works of art and artists for future shows.    
-    
-                      </p>
-   
-                  <h5 class="card-title">Technologies Used:</h5>
-                  <div class = 'row'>
-
-                  <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
-                    <li>Node.js</li>
-                    <li>JavaScript</li>
-                    <li>Express</li>
-                    <li>EJS</li>
-                    <li>PostgreSQL</li>
-                    
-
-
-
-                  </ul>
-                  <ul class = 'd-flex col-6 flex-column justify-content-evenly align-items-center tech-used'>
-                  <li>Cloudinary</li>
-                    <li>Nodemailer API</li>
-                    <li>Bcrypt</li>
-                    <li>Passport</li>
-                </ul>
-                </div>
-              </div>
-              </div>
-            </div>
-            </div>
-          </div>
-
-          <!-- PIZZA OLYMPICS -->
-          <div class="card mb-3 col-lg-5 col-sm-10 mx-auto d-flex">
-            <div class="row g-0">
-                <h5 class="h2 card-title text-center">Pizza Olympics</h5>
-
-              <div class="mx-auto">
-                <img src="./assets/img/pizza_olympics_img.png" class="img-fluid rounded" alt="Pizza Olympics Screenshot">
-                <p class = 'font-monospace text-center site-para'><a target = '_blank' class= 'site-link' href='https://anthonymang.github.io/pizza-olympics-game/
-
-                    '>Live Site</a> | <a class= 'site-link' href='https://github.com/anthonymang/pizza-olympics-game' target = '_blank'>Github</a></p>
-            </div>
-            <div class = 'row text-center font-monospace'>
-                <a data-bs-toggle="collapse" class='site-link coll-link' href = "#collapsePizza" aria-expanded="false" aria-controls="collapseExample">▼ About ▼</a>
-            </div>
-            <div class="row">
-                <div class="font-monospace">
-                    <div class = 'mobile-coll' id='collapsePizza'>
-                    <p class="card-text">
-                        Pizza Olympics is a cooking competition game. Two players go head to head for one minute each, trying to create as many pizzas as they can. Players will be prompted with a pizza and ingredient list randomly, and must use the ingredient buttons to match the pizza provided.     
-    
-                      </p>
-                      
-   
-                  <h5 class="card-title">Technologies Used:</h5>
-                  <div class = 'row'>
-                  <ul class = 'd-flex col-12 flex-column justify-content-evenly align-items-center tech-used'>
-                    <li>JavaScript</li>
-                    <li>DOM Manipulation</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    </ul>
-                </div>
-              </div>
-              </div>
-            </div>   
-            </div>
-          </div>
-
-
-
-          
+        </div>
+        </div>
         </div>
 
-        <div class="row d-flex flex-row justify-content-evenly text-center" id = 'contact'>
-            <p class="h1 heading text-center">contact</p>
-            <p>email: anthonymanganielloda@gmail.com</p>
-          </div>
+        <!-- PIZZA OLYMPICS -->
+        <div class="card mb-3 col-lg-5 col-sm-10 mx-auto d-flex">
+        <div class="row g-0">
+            <h5 class="h2 card-title text-center">Pizza Olympics</h5>
+
+            <div class="mx-auto">
+            <img src="./assets/img/pizza_olympics_img.png" class="img-fluid rounded" alt="Pizza Olympics Screenshot">
+            <p class = 'font-monospace text-center site-para'><a target = '_blank' class= 'site-link' href='https://anthonymang.github.io/pizza-olympics-game/
+
+                '>Live Site</a> | <a class= 'site-link' href='https://github.com/anthonymang/pizza-olympics-game' target = '_blank'>Github</a></p>
+        </div>
+        <div class = 'row text-center font-monospace'>
+            <a data-bs-toggle="collapse" class='site-link coll-link' href = "#collapsePizza" aria-expanded="false" aria-controls="collapseExample">▼ About ▼</a>
+        </div>
+        <div class="row">
+            <div class="font-monospace">
+                <div class = 'mobile-coll' id='collapsePizza'>
+                <p class="card-text">
+                    Pizza Olympics is a cooking competition game. Two players go head to head for one minute each, trying to create as many pizzas as they can. Players will be prompted with a pizza and ingredient list randomly, and must use the ingredient buttons to match the pizza provided.     
+
+                    </p>
+                    
+
+                <h5 class="card-title">Technologies Used:</h5>
+                <div class = 'row'>
+                <ul class = 'd-flex col-12 flex-column justify-content-evenly align-items-center tech-used'>
+                <li>JavaScript</li>
+                <li>DOM Manipulation</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        </div>   
+        </div>
+        </div>
+
+
+
+        
+    </div>
+
+    <div class="row d-flex flex-row justify-content-evenly text-center" id = 'contact'>
+        <p class="h1 heading text-center">contact</p>
+        <p>email: anthonymanganielloda@gmail.com</p>
+        </div>
 </div>
 
 
-    <script src="main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<script src="main.js"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+></script>
+</body>
 </html>
